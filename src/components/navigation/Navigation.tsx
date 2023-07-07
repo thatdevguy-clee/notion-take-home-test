@@ -3,7 +3,6 @@ import { useRef, useState } from 'react';
 import { usePathname} from 'next/navigation';
 import './navigation.css';
 
-
 const Navigation = () => {
   const activePage = usePathname();
   const navigationRef = useRef<HTMLElement>(null);

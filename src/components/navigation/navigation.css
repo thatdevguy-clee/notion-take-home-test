@@ -6,7 +6,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    
     align-items: center;
     height: 100%;
     pointer-events: none;
@@ -14,7 +13,6 @@
   .top-navigation.opened{
     pointer-events: initial;
   }
-  
   .top-navigation ul {
     display: flex;
     width: 300px;
@@ -31,7 +29,6 @@
     right: 0;
     transition: right .25s ease-in;
   }
-  
   .top-navigation li {
     width: 100%;
     margin-bottom: .5rem;
@@ -80,19 +77,16 @@
   }
 }
 
-
 @media screen and (min-width:640px) {
   .top-navigation{
     padding-top: 7px;
   }
-
   .top-navigation li {
     margin-right: 24px;
   }
   .top-navigation li:last-child {
     margin-right: 0;
   }
-
   .top-navigation a{
     color: #000;
     font-size: 17px;
@@ -103,7 +97,6 @@
   .active{
     border-bottom: 2px solid #E16259;
   }
-
   .menu-button, .menu-bg{
     display: none;
   }

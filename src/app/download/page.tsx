@@ -1,3 +1,10 @@
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Download Page',
+  description: 'Page with download form',
+}
+
 export default function Download() {
 
   return (

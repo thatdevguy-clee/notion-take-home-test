@@ -2,8 +2,8 @@ import Navigation from '@/components/navigation/Navigation';
 import './globals.css';
 
 export const metadata = {
-  title: 'Products | Notion Take Home Test',
-  description: 'Products Page for Test for Notion',
+  title: 'Notion Take Home Test',
+  description: 'General description',
 }
 
 export default function RootLayout({
