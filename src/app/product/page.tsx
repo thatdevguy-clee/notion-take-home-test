@@ -16,7 +16,7 @@ export default function Product() {
 
   return (
     <main className="container mx-auto">
-      <div id="header-section" className="flex flex-col-reverse md:flex-row justify-start items-center mt-4 md:mt-[81px] mb-8 md:mb-[100px]">
+      <div id="header-section" className="flex flex-col-reverse md:flex-row justify-between items-center mt-4 md:mt-[81px] mb-8 md:mb-[100px]">
         <div className="title-section ">
           <h1>Find the{'\n'}university that’s{'\n'}right for you.</h1>
           <p><span>Tenetur ex explicabo et illo. Recusandae fugit eius voluptatem.</span> <span>Voluptas atque autem totam.</span></p>

@@ -40,7 +40,8 @@ body > .container {
     height: auto;
   }
   .title-section h1{
-    font-size: calc(100vw / 360 * 28);
+    font-size: calc(100vw / 360 * 40);
+    white-space: pre-line;
   }
   .title-section p{
     font-size: calc(100vw / 360 * 16);
@@ -51,7 +52,7 @@ body > .container {
   .right-image{
     width: min(calc(100vw / 1440 * 384), 384px);
     height: auto;
-    margin-left: min(calc(100vw / 1440 * 126), 126px);
+    margin-right: min(calc(100vw / 1440 * 102), 102px);
   }
   .title-section{
     max-width: 588px;
