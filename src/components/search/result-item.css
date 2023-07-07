@@ -24,6 +24,10 @@
   font-weight: 400;
   line-height: 150%;
   cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
 }
 .insturl:hover{
   text-decoration: underline;
