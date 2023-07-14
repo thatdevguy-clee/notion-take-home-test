@@ -17,7 +17,7 @@
     display: flex;
     width: 300px;
     height: 100%;
-    padding: 60px 20px;
+    padding: 80px 20px;
     background: #fafafa;
     flex-direction: column;
     position: fixed;
@@ -92,10 +92,14 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
+    transition: color .25s ease-out;
   }
-  .active{
+  .top-navigation a.active{
     border-bottom: 2px solid #E16259;
+  }
+  .top-navigation a:hover{
+    color: #E16259;
   }
   .menu-button, .menu-bg{
     display: none;
